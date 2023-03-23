@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <form id="my-form">
+            <div class="header-form">
+                <div class="header-left-form">
+                    <h2>Login</h2>
+                    <div class="title-traco"></div>
+                </div>
+                <div class="header-right-form">
+                    <div class="icon-svg">
+                        <img src="img/moon-solid-svgrepo-com.png" alt="Icone lua">
+                    </div>
+                </div>
+            </div>
+            <div class="icons-si">
+                <img src="img/google-color-svgrepo-com.png" alt="Google icon">
+                <img src="img/facebook-svgrepo-com.png" alt="Facebook icon">
+                <img src="img/github-svgrepo-com.png" alt="Github icon">
+            </div>
+            <div class="inputs-form">
+                <div class="msg-error"></div>
+                <label for="nome-form" class="label-form">Nome</label>
+                <input type="text" class="input-s" id="nome-form" required>
+                    <label for="email-form" class="label-form">E-mail</label>
+                    <input type="email" class="input-s" id="email-form" required>
+                <label for="senha-form" class="label-form">Senha</label>
+                <input type="password" class="input-s" id="senha-form" required>
+                <p class="esqueceu-senha">Esqueceu sua senha?</p>
+            </div>
+            <div class="button-form">
+                <input id="submit-button" class="btn" type="submit" value="Submit"/>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
